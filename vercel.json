@@ -1,9 +1,9 @@
 {
 	"redirects": [
-		// {
-		// 	"source": "/deploy",
-		// 	"destination": "https://vercel.com/templates/svelte/watch-this"
-		// },
+		{
+			"source": "/deploy",
+			"destination": "https://vercel.com/templates/svelte/watch-this"
+		},
 		{
 			"source": "/github",
 			"destination": "https://github.com/sonnguyentb21/watch-this-web.git"
