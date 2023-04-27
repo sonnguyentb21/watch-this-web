@@ -1,4 +1,5 @@
 <script>
+	// @ts-ignore
 	import * as animateScroll from 'svelte-scrollto';
 	import { fade } from 'svelte/transition';
 	import Form from '$lib/Form.svelte';
