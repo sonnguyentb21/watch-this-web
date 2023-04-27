@@ -794,7 +794,9 @@ __export(server_ts_exports, {
   POST: () => POST
 });
 async function POST({ request }) {
-  const { title } = await request.json();
+  const {
+    title
+  } = await request.json();
   const url = `http://www.omdbapi.com/?apikey=${OMDB_API_KEY}&t=${title}`;
   const res = await fetch(url);
   const details = await res.json();
@@ -1478,7 +1480,7 @@ ${components[1] ? `${validate_component(components[0] || missing_component, "sve
 ${``}`;
 });
 set_paths({ "base": "", "assets": "" });
-set_version("1682514685604");
+set_version("1682560544505");
 var options = {
   csp: { "mode": "auto", "directives": { "upgrade-insecure-requests": false, "block-all-mixed-content": false }, "reportOnly": { "upgrade-insecure-requests": false, "block-all-mixed-content": false } },
   csrf_check_origin: true,
